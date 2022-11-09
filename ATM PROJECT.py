@@ -54,7 +54,8 @@ Please enter the four digit PIN: """))
             else:    
                 balance=balance-withdraw
                 if balance<=2000:
-                    print(f"YOUR ACCOUNT HAVE LOW BALANCE:  {balance}")
+                    print(f"YOUR CURRENT BALANCE IS: {balance}")
+                    print(f"YOUR ACCOUNT HAVE LOW BALANCE PLEASE MAKE SUFFICIENT BALANCE GREATER THAN 2000")
 
                 else:
                     print(f"YOUR CURRENT BALANCE IS: {balance}")
