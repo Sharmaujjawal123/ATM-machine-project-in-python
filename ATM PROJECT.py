@@ -51,12 +51,13 @@ Please enter the four digit PIN: """))
             withdraw=int(input("PLEASE ENTER AMOUNT TO WITHDRAW: "))
             if withdraw>balance:
                 print("INSUFFICIENT BALANCE!!")
-            balance=balance-withdraw
-            if balance<=2000:
-                print(f"YOUR ACCOUNT HAVE LOW BALANCE:  {balance}")
+            else:    
+                balance=balance-withdraw
+                if balance<=2000:
+                    print(f"YOUR ACCOUNT HAVE LOW BALANCE:  {balance}")
 
-            else:
-                print(f"YOUR CURRENT BALANCE IS: {balance}")
+                else:
+                    print(f"YOUR CURRENT BALANCE IS: {balance}")
         if choice==4:
             print("""
             
