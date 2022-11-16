@@ -12,8 +12,6 @@ print('''                               _      _____   __  __
                                                                                 
 ''')
 
-print()
-print()
 print("#######|WELCOME TO U.S BANK!|########")
 print("""
 PLEASE INSERT YOUR CARD""")
