@@ -1,4 +1,19 @@
 import time
+import os
+os.system('cls')
+print()
+
+print('''                               _      _____   __  __ 
+                              / \    |_   _| |  \/  |
+                             / _ \     | |   | |\/| |
+                            / ___ \    | |   | |  | |
+                           /_/   \_\   |_|   |_|  |_|
+                                                     
+                                                                                
+''')
+
+print()
+print()
 print("#######|WELCOME TO U.S BANK!|########")
 print("""
 PLEASE INSERT YOUR CARD""")
@@ -82,6 +97,10 @@ Please enter the four digit PIN: """))
 
     else:
         continue
+        
+        
+clear=input()
+os.system('cls')
 
 
 
