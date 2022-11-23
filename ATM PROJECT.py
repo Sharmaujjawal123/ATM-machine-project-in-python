@@ -59,19 +59,20 @@ Please enter the four digit PIN: """))
             print("YOUR CURRENT BALANCE IS: ",balance)
         if choice==2:
             deposite=int(input("PLEASE ENTER AMOUNT TO DEPOSITE: "))
-            print(f"YOUR CURRENT BALANCE IS: {balance+deposite}")
+            balance1=balance+deposite
+            print(f"YOUR CURRENT BALANCE IS: {balance1}")
         if choice==3:
             withdraw=int(input("PLEASE ENTER AMOUNT TO WITHDRAW: "))
             if withdraw>balance:
                 print("INSUFFICIENT BALANCE!!")
             else:    
-                balance=balance-withdraw
-                if balance<=2000:
-                    print(f"YOUR CURRENT BALANCE IS: {balance}")
+                balance2=balance-withdraw
+                if balance2<=2000:
+                    print(f"YOUR CURRENT BALANCE IS: {balance2}")
                     print(f"YOUR ACCOUNT HAVE LOW BALANCE PLEASE MAKE SUFFICIENT BALANCE GREATER THAN 2000")
 
                 else:
-                    print(f"YOUR CURRENT BALANCE IS: {balance}")
+                    print(f"YOUR CURRENT BALANCE IS: {balance2}")
         if choice==4:
             print("""
             
